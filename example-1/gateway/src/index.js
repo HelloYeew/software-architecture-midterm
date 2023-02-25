@@ -151,7 +151,7 @@ function setupHandlers(app) {
                     res.sendStatus(500);
                 });
             }
-        )
+        ).end()
     });
 
     //
